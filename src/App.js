@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+import { MuiThemeProvider, createMuiTheme, makeStyles } from "@material-ui/core/styles";
+
+import SoundButtonGrid from "./components/SoundButtonGrid";
+import { Typography } from "@material-ui/core";
+
+const useStyles = makeStyles({
+  background: {},
+  grid: {
+    paddingTop: "50px",
+  },
+  typography: {
+    paddingTop: "50px",
+    paddingBottom: "50px",
+    textAlign: "center",
+  },
+});
+
+const theme = createMuiTheme({
+  typography: {
+    h3: {
+      fontFamily: "'Inter', sans-serif",
+    },
+    h6: {
+      fontFamily: "'Inter', sans-serif",
+    },
+  },
+});
+
+export default function App() {
+  const classes = useStyles();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MuiThemeProvider theme={theme}>
+      <div className={classes.background}>
+        <Typography className={classes.typography} variant="h3">
+          Soundboard
+        </Typography>
+        <SoundButtonGrid />
+      </div>
+    </MuiThemeProvider>
   );
 }
-
-export default App;
