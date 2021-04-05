@@ -1,6 +1,16 @@
+export { default as AirHornImage } from "./air-horn.jpeg";
 export { default as AnimeWowImage } from "./anime-wow.png";
 export { default as BruhImage } from "./bruh.jpeg";
 export { default as BuzzerImage } from "./buzzer.jpg";
+export { default as EnemyAC130AboveImage } from "./enemy-ac130-above.jpeg";
+export { default as FartImage } from "./fart.jpeg";
+export { default as ItIsWednesdayMyDudesImage } from "./it-is-wednesday-my-dudes.png";
+export { default as JohnCenaImage } from "./john-cena.jpeg";
+export { default as KermitWillStompYourKneeCapsBackwardsImage } from "./kermit-will-stomp-your-knee-caps-backwards.png";
+export { default as LeeroyJenkinsImage } from "./leeroy-jenkins.jpg";
 export { default as NutImage } from "./nut.png";
+export { default as OhBabyATripleImage } from "./oh-baby-a-triple.jpeg";
 export { default as RobloxOofImage } from "./roblox-oof.jpg";
+export { default as SurpriseMotherfuckerImage } from "./surprise-motherfucker.jpg";
+export { default as TacticalNukeIncomingImage } from "./tactical-nuke-incoming.png";
 export { default as YeeImage } from "./yee.jpeg";
