@@ -1,8 +1,6 @@
 App:
 
 - Make title/background look less bland
-- Add logo
-- Add favicon
 
 SoundButton:
 
