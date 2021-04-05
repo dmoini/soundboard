@@ -6,13 +6,15 @@ import SoundButtonGrid from "./components/SoundButtonGrid";
 import { Typography } from "@material-ui/core";
 
 const useStyles = makeStyles({
-  background: {},
-  grid: {
-    paddingTop: "50px",
+  background: {
+    backgroundColor: "black",
+    backgroundSize: "cover",
+    minHeight: "100vh",
+    width: "100%",
   },
   typography: {
-    paddingTop: "50px",
     paddingBottom: "50px",
+    paddingTop: "50px",
     textAlign: "center",
   },
 });
@@ -20,9 +22,11 @@ const useStyles = makeStyles({
 const theme = createMuiTheme({
   typography: {
     h3: {
+      color: "white",
       fontFamily: "'Inter', sans-serif",
     },
     h6: {
+      color: "white",
       fontFamily: "'Inter', sans-serif",
     },
   },

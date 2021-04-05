@@ -1,13 +1,16 @@
-import { React } from "react";
+import React from "react";
 import ReactRoundedImage from "react-rounded-image";
 import { Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
-const playSound = (sound) => new Audio(sound).play();
-
 const useStyles = makeStyles({
+  root: {
+    paddingBottom: "20px",
+  },
   soundButton: {
-    padding: "15px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
   },
   typography: {
     paddingTop: "10px",
@@ -15,12 +18,12 @@ const useStyles = makeStyles({
   },
 });
 
-export default function SoundButton({ name, image, sound, roundedColor }) {
+export default function SoundButton({ name, image, sound, roundedColor, handleClick }) {
   const classes = useStyles();
 
   return (
-    <div className={classes.soundButton}>
-      <div onClick={() => playSound(sound)}>
+    <div className={classes.root}>
+      <div className={classes.soundButton} onClick={() => handleClick(sound)}>
         <ReactRoundedImage
           imageWidth={150}
           imageHeight={150}
