@@ -8,6 +8,7 @@ export { default as ItIsWednesdayMyDudesImage } from "./it-is-wednesday-my-dudes
 export { default as JohnCenaImage } from "./john-cena.jpeg";
 export { default as KermitWillStompYourKneeCapsBackwardsImage } from "./kermit-will-stomp-your-knee-caps-backwards.png";
 export { default as LeeroyJenkinsImage } from "./leeroy-jenkins.jpg";
+export { default as NobodysGonnaKnowImage } from "./nobody's-gonna-know.png";
 export { default as NutImage } from "./nut.png";
 export { default as OhBabyATripleImage } from "./oh-baby-a-triple.jpeg";
 export { default as RobloxOofImage } from "./roblox-oof.jpg";

@@ -8,6 +8,7 @@ export { default as ItIsWednesdayMyDudesSound } from "./it-is-wednesday-my-dudes
 export { default as JohnCenaSound } from "./john-cena.mp3";
 export { default as KermitWillStompYourKneeCapsBackwardsSound } from "./kermit-will-stomp-your-knee-caps-backwards.mp3";
 export { default as LeeroyJenkinsSound } from "./leeroy-jenkins.mp3";
+export { default as NobodysGonnaKnowSound } from "./nobody's-gonna-know.mp3";
 export { default as NutSound } from "./nut.mp3";
 export { default as OhBabyATripleSound } from "./oh-baby-a-triple.mp3";
 export { default as RobloxOofSound } from "./roblox-oof.mp3";
