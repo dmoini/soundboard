@@ -14,4 +14,5 @@ export { default as OhBabyATripleSound } from "./oh-baby-a-triple.mp3";
 export { default as RobloxOofSound } from "./roblox-oof.mp3";
 export { default as SurpriseMotherfuckerSound } from "./surprise-motherfucker.mp3";
 export { default as TacticalNukeIncomingSound } from "./tactical-nuke-incoming.mp3";
+export { default as WillyLawnmowerSound } from "./willy-lawnmower.m4a";
 export { default as YeeSound } from "./yee.mp3";
