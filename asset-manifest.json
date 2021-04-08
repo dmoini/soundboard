@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/soundboard/static/css/main.b21d3c4a.chunk.css",
-    "main.js": "/soundboard/static/js/main.f610654c.chunk.js",
-    "main.js.map": "/soundboard/static/js/main.f610654c.chunk.js.map",
+    "main.js": "/soundboard/static/js/main.079e98d9.chunk.js",
+    "main.js.map": "/soundboard/static/js/main.079e98d9.chunk.js.map",
     "runtime-main.js": "/soundboard/static/js/runtime-main.de59b1e6.js",
     "runtime-main.js.map": "/soundboard/static/js/runtime-main.de59b1e6.js.map",
     "static/js/2.e745f180.chunk.js": "/soundboard/static/js/2.e745f180.chunk.js",
@@ -21,13 +21,19 @@
     "static/media/buzzer.1d788a08.jpg": "/soundboard/static/media/buzzer.1d788a08.jpg",
     "static/media/buzzer.493cc9f4.mp3": "/soundboard/static/media/buzzer.493cc9f4.mp3",
     "static/media/chris-bro.17ada69b.m4a": "/soundboard/static/media/chris-bro.17ada69b.m4a",
-    "static/media/chris-bro.4e4f0dc5.jpg": "/soundboard/static/media/chris-bro.4e4f0dc5.jpg",
+    "static/media/chris-bro.7139635e.jpg": "/soundboard/static/media/chris-bro.7139635e.jpg",
     "static/media/chris-growl.09b760c8.jpg": "/soundboard/static/media/chris-growl.09b760c8.jpg",
     "static/media/chris-growl.28d64a61.m4a": "/soundboard/static/media/chris-growl.28d64a61.m4a",
+    "static/media/chris-pterodactyl.5c48ed6d.m4a": "/soundboard/static/media/chris-pterodactyl.5c48ed6d.m4a",
+    "static/media/chris-pterodactyl.f87772b2.png": "/soundboard/static/media/chris-pterodactyl.f87772b2.png",
     "static/media/chris-spanish.8b057389.jpg": "/soundboard/static/media/chris-spanish.8b057389.jpg",
     "static/media/chris-spanish.afc5b13c.m4a": "/soundboard/static/media/chris-spanish.afc5b13c.m4a",
+    "static/media/chris-squeal.4e4f0dc5.jpg": "/soundboard/static/media/chris-squeal.4e4f0dc5.jpg",
+    "static/media/chris-squeal.ffe9f088.mp3": "/soundboard/static/media/chris-squeal.ffe9f088.mp3",
     "static/media/chris-turkey-snipe.2799ec16.png": "/soundboard/static/media/chris-turkey-snipe.2799ec16.png",
     "static/media/chris-turkey-snipe.8702f71f.mp3": "/soundboard/static/media/chris-turkey-snipe.8702f71f.mp3",
+    "static/media/elvin-you-need-to-go-through-puberty-again.4518ce5f.jpg": "/soundboard/static/media/elvin-you-need-to-go-through-puberty-again.4518ce5f.jpg",
+    "static/media/elvin-you-need-to-go-through-puberty-again.dc643fb7.mp3": "/soundboard/static/media/elvin-you-need-to-go-through-puberty-again.dc643fb7.mp3",
     "static/media/enemy-ac130-above.3a790259.jpeg": "/soundboard/static/media/enemy-ac130-above.3a790259.jpeg",
     "static/media/enemy-ac130-above.431b4a9a.mp3": "/soundboard/static/media/enemy-ac130-above.431b4a9a.mp3",
     "static/media/fart.e4945696.mp3": "/soundboard/static/media/fart.e4945696.mp3",
@@ -59,6 +65,6 @@
     "static/js/runtime-main.de59b1e6.js",
     "static/js/2.e745f180.chunk.js",
     "static/css/main.b21d3c4a.chunk.css",
-    "static/js/main.f610654c.chunk.js"
+    "static/js/main.079e98d9.chunk.js"
   ]
 }
