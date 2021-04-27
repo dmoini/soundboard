@@ -21,5 +21,5 @@ export { default as OhBabyATripleImage } from "./oh-baby-a-triple.jpeg";
 export { default as RobloxOofImage } from "./roblox-oof.jpg";
 export { default as SurpriseMotherfuckerImage } from "./surprise-motherfucker.jpg";
 export { default as TacticalNukeIncomingImage } from "./tactical-nuke-incoming.png";
-export { default as WillyLawnmowerImage } from "./willy-lawnmower.jpeg";
+export { default as WillyLawnmowerImage_FRIENDS } from "./willy-lawnmower.jpeg";
 export { default as YeeImage } from "./yee.jpeg";
