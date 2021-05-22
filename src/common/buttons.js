@@ -30,18 +30,20 @@ const getCategory = (s) => {
 const colors = ["#FFFF00", "#FF0000", "#00FF00", "#00FFFF", "#FF00FF", "#9D00FF"];
 
 const imageKeys = Object.keys(imageImport);
+imageKeys.sort();
 const soundKeys = Object.keys(soundImport);
+soundKeys.sort();
 
 const buttons = zip(imageKeys, soundKeys)
   .map((keys) => {
     const [image, sound] = keys;
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
     return {
-      name: getName(image),
+      name: getName(sound),
       image: imageImport[image],
       sound: soundImport[sound],
       roundedColor: randomColor,
-      category: getCategory(image),
+      category: getCategory(sound),
     };
   })
   .sort((button) => button.name);
