@@ -7,9 +7,9 @@ const CATEGORY_INDEX_SEPARATOR = "_";
 
 const zip = (a, b) => a.map((v, i) => [v, b[i]]);
 
-const getName = (s) => {
-  const categoryIndex = s.indexOf(CATEGORY_INDEX_SEPARATOR);
-  const name = categoryIndex !== -1 ? s.substring(0, categoryIndex) : s;
+const getName = (soundName) => {
+  const categoryIndex = soundName.indexOf(CATEGORY_INDEX_SEPARATOR);
+  const name = categoryIndex !== -1 ? soundName.substring(0, categoryIndex) : soundName;
   switch (name) {
     case "EnemyAC130Above":
       return "Enemy AC-130 Above";
@@ -18,10 +18,10 @@ const getName = (s) => {
   }
 };
 
-const getCategory = (s) => {
-  const categoryIndex = s.indexOf(CATEGORY_INDEX_SEPARATOR);
+const getCategory = (soundName) => {
+  const categoryIndex = soundName.indexOf(CATEGORY_INDEX_SEPARATOR);
   if (categoryIndex !== -1) {
-    const category = s.substring(categoryIndex + 1);
+    const category = soundName.substring(categoryIndex + 1);
     return categories.hasOwnProperty(category) ? categories[category] : categories.OTHER;
   }
   return categories.OTHER;
@@ -29,14 +29,11 @@ const getCategory = (s) => {
 
 const colors = ["#FFFF00", "#FF0000", "#00FF00", "#00FFFF", "#FF00FF", "#9D00FF"];
 
-const imageKeys = Object.keys(imageImport);
-imageKeys.sort();
-const soundKeys = Object.keys(soundImport);
-soundKeys.sort();
+const imageKeys = [...Object.keys(imageImport)].sort();
+const soundKeys = [...Object.keys(soundImport)].sort();
 
 const buttons = zip(imageKeys, soundKeys)
-  .map((keys) => {
-    const [image, sound] = keys;
+  .map(([image, sound]) => {
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
     return {
       name: getName(sound),

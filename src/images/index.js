@@ -23,3 +23,4 @@ export { default as SurpriseMotherfucker } from "./surprise-motherfucker.jpg";
 export { default as TacticalNukeIncoming } from "./tactical-nuke-incoming.png";
 export { default as WillyLawnmower } from "./willy-lawnmower.jpeg";
 export { default as Yee } from "./yee.jpeg";
+export { default as VeryNice } from "./very-nice.png";
