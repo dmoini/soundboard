@@ -13,6 +13,8 @@ const getName = (soundName) => {
   switch (name) {
     case "EnemyAC130Above":
       return "Enemy AC-130 Above";
+    case "NobodysGonnaKnow":
+      return "Nobody's Gonna Know";
     default:
       return name.replace(/([A-Z])/g, " $1").trim();
   }

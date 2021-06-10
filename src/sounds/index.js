@@ -24,3 +24,4 @@ export { default as TacticalNukeIncoming } from "./tactical-nuke-incoming.mp3";
 export { default as WillyLawnmower_FRIENDS } from "./willy-lawnmower.m4a";
 export { default as Yee } from "./yee.mp3";
 export { default as VeryNice } from "./very-nice.mp3";
+export { default as FeliciaGoodLuckWithThat_FRIENDS } from "./felicia-good-luck-with-that.mp3";
