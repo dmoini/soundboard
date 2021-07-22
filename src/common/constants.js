@@ -4,4 +4,12 @@ const categories = {
   OTHER: "Other",
 };
 
-export default categories;
+const customSoundNames = {
+  EnemyAC130Above: "Enemy AC-130 Above",
+  NobodysGonnaKnow: "Nobody's Gonna Know",
+};
+
+module.exports = {
+  categories,
+  customSoundNames,
+};

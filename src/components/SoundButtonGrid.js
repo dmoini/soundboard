@@ -1,10 +1,9 @@
-import { Grid, TextField, Typography, FormControl, InputLabel, Select, MenuItem } from "@material-ui/core";
+import { FormControl, Grid, InputLabel, MenuItem, Select, TextField, Typography } from "@material-ui/core";
 import React, { useEffect, useState } from "react";
-
-import categories from "../common/constants";
 
 import SoundButton from "./SoundButton";
 import buttonsData from "../common/buttons";
+import { categories } from "../common/constants";
 import { makeStyles } from "@material-ui/core/styles";
 
 const allWhiteMaterialUiComponent = {

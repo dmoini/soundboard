@@ -18,9 +18,40 @@ A personal soundboard that can be found [here](https://dmoini.github.io/soundboa
    export { default as RoadWorkAhead_FRIENDS } from "./road-work-ahead.mp3";
    ```
 
-   All category options can be found in `src/common/constants.js` as `categories`. You are more than welcome to add new categories. The "Any" category is the default for viewing all sounds. Sounds with either no category or an unknown category are assigned to the "Other" category.
+   All category options can be found in `src/common/constants.js` as `categories`. You are more than welcome to add new categories. The "Any" category is the default for viewing all sounds. Sounds with the "Friends" category will have the first capitalized word in the sound export name removed from the displayed sound name and appended to the end. Given the following example:
 
-   Due to the `export` statement not allowing for special characters, you are not able to add special characters to your sound name (hyphens for example). To work around this, in `src/common/buttons.js` you can add to the switch case found in `getName()`. Use the "EnemyAC130Above" case as an example.
+   ```javascript
+   export { default as DrewRoadWorkAhead_FRIENDS } from "./road-work-ahead.mp3";
+   ```
+
+   This would result in the displayed name "Road Work Ahead (Drew)". Sounds with either no category or an unknown category are assigned to the "Other" category.
+
+   Due to the `export` statement not allowing for special characters, you are not able to add special characters to your sound name (hyphens for example). To work around this, in `src/common/constants.js` you can add to the `customNames` object. The key is the export name (excluding any prefixed friend name and suffixed category identifier) and the value is the custom sound name. Below are two examples for a simple case and a specific case:
+
+   ```javascript
+   // Standard sound
+   export { default as EnemyAC130Above } from "./enemy-ac130-above.mp3";
+
+   // Add the following in the `customSoundNames` object in `constants.js`
+   {
+     ...
+     EnemyAC130Above: "Enemy AC-130 Above"
+     ...
+   }
+   ```
+
+   ```javascript
+   // Sound added to friends category
+   export { default as ChrisTurkeySnipe_FRIENDS } from "./chris-turkey-snipe.mp3";
+
+   // Add the following in the `customSoundNames` object in `constants.js`
+   {
+     ...
+     TurkeySnipe: "Super Turkey Snipe"
+     ...
+   }
+   // The displayed sound name will be "Super Turkey Snipe (Chris)"
+   ```
 
 4. Add the image file to `src/images`. The file must be a valid image file (png, jpg, jpeg, etc...). Please format the image file name as `road-work-ahead.png`.
 

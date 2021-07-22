@@ -1,7 +1,7 @@
 import * as imageImport from "../images";
 import * as soundImport from "../sounds";
 
-import categories from "../common/constants";
+import { categories, customSoundNames } from "../common/constants";
 
 const CATEGORY_INDEX_SEPARATOR = "_";
 
@@ -9,14 +9,20 @@ const zip = (a, b) => a.map((v, i) => [v, b[i]]);
 
 const getName = (soundName) => {
   const categoryIndex = soundName.indexOf(CATEGORY_INDEX_SEPARATOR);
-  const name = categoryIndex !== -1 ? soundName.substring(0, categoryIndex) : soundName;
-  switch (name) {
-    case "EnemyAC130Above":
-      return "Enemy AC-130 Above";
-    case "NobodysGonnaKnow":
-      return "Nobody's Gonna Know";
-    default:
-      return name.replace(/([A-Z])/g, " $1").trim();
+  const nameWithoutCategory = categoryIndex !== -1 ? soundName.substring(0, categoryIndex) : soundName;
+  const spacedOutName = nameWithoutCategory.replace(/([A-Z])/g, " $1").trim();
+  const category = getCategory(soundName);
+  if (category === categories.FRIENDS) {
+    const splitResultName = spacedOutName.split(" ");
+    const friendName = splitResultName[0];
+    const resultNameWithoutFriendName = splitResultName.slice(1).join(" ");
+    const customSoundNameKey = resultNameWithoutFriendName.replace(/\s/g, "");
+    const resultName = customSoundNames.hasOwnProperty(customSoundNameKey)
+      ? customSoundNames[customSoundNameKey]
+      : resultNameWithoutFriendName;
+    return `${resultName} (${friendName})`;
+  } else {
+    return customSoundNames.hasOwnProperty(nameWithoutCategory) ? customSoundNames[nameWithoutCategory] : spacedOutName;
   }
 };
 
@@ -45,6 +51,6 @@ const buttons = zip(imageKeys, soundKeys)
       category: getCategory(sound),
     };
   })
-  .sort((button) => button.name);
+  .sort((a, b) => a.name.localeCompare(b.name));
 
 export default buttons;
