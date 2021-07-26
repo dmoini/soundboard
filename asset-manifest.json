@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/soundboard/static/css/main.b21d3c4a.chunk.css",
-    "main.js": "/soundboard/static/js/main.2f782ecf.chunk.js",
-    "main.js.map": "/soundboard/static/js/main.2f782ecf.chunk.js.map",
+    "main.js": "/soundboard/static/js/main.daa5ad84.chunk.js",
+    "main.js.map": "/soundboard/static/js/main.daa5ad84.chunk.js.map",
     "runtime-main.js": "/soundboard/static/js/runtime-main.ff44ce07.js",
     "runtime-main.js.map": "/soundboard/static/js/runtime-main.ff44ce07.js.map",
     "static/js/2.b431039b.chunk.js": "/soundboard/static/js/2.b431039b.chunk.js",
@@ -69,6 +69,6 @@
     "static/js/runtime-main.ff44ce07.js",
     "static/js/2.b431039b.chunk.js",
     "static/css/main.b21d3c4a.chunk.css",
-    "static/js/main.2f782ecf.chunk.js"
+    "static/js/main.daa5ad84.chunk.js"
   ]
 }
