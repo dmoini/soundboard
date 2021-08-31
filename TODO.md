@@ -1,7 +1,6 @@
 SoundButton:
 
-- Make rounded color the average color of SoundButton's image
-- Change text to green while sound is playing and back to white when sound ends
+- Prevent two sounds from playing at the same time. If sound A is pressed while sound B is playing, stop sound B and then play sound A.
 
 Other:
 

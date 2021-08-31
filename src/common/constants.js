@@ -23,3 +23,6 @@ export const soundNameToCustomNameMap = {
   EnemyAC130Above: "Enemy AC-130 Above",
   NobodysGonnaKnow: "Nobody's Gonna Know",
 };
+
+export const RED = "#FF0000";
+export const GREEN = "#00FF00";

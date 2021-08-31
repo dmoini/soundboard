@@ -2,7 +2,7 @@ import "./App.css";
 
 import { MuiThemeProvider, createMuiTheme, makeStyles } from "@material-ui/core/styles";
 
-import SoundButtonGrid from "./components/SoundButtonGrid";
+import Soundboard from "./components/Soundboard";
 import { Typography } from "@material-ui/core";
 
 const useStyles = makeStyles({
@@ -41,7 +41,7 @@ export default function App() {
         <Typography className={classes.typography} variant="h3">
           Soundboard
         </Typography>
-        <SoundButtonGrid />
+        <Soundboard />
       </div>
     </MuiThemeProvider>
   );
