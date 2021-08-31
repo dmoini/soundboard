@@ -68,29 +68,11 @@ const useStyles = makeStyles({
   },
 });
 
-export default function SoundButtonGrid() {
+export default function Soundboard() {
   const [searchValue, setSearchValue] = useState("");
   const [categoryValue, setCategoryValue] = useState(categories.ALL);
   const [buttons, setButtons] = useState(buttonsData);
-  const [soundPlaying, setSoundPlaying] = useState({});
   const classes = useStyles();
-
-  const playSound = (sound) => {
-    if (soundPlaying.isPlaying) {
-      soundPlaying.audio.pause();
-      soundPlaying.isPlaying = false;
-    }
-    const audio = new Audio(sound);
-    setSoundPlaying({ audio, isPlaying: true });
-    audio.play();
-
-    audio.addEventListener("ended", soundListener(audio));
-  };
-
-  const soundListener = (audio) => {
-    soundPlaying.isPlaying = false;
-    audio.removeEventListener("ended", soundListener);
-  };
 
   useEffect(() => {
     const filteredButtonsBySearchValue = buttonsData.filter((button) => button.name.toLowerCase().includes(searchValue.toLowerCase()));
@@ -135,7 +117,7 @@ export default function SoundButtonGrid() {
         {buttons.map((button) => {
           return (
             <Grid item xs={6} sm={4} md={2} key={`${button.name} grid item`}>
-              <SoundButton handleClick={playSound} key={button.name} {...button}></SoundButton>
+              <SoundButton key={button.name} {...button}></SoundButton>
             </Grid>
           );
         })}
