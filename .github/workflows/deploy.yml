@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Install Packages 🔧
+      - name: Install packages 🔧
         run: npm install
       - name: Build page 📦
         run: npm run build
