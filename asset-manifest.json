@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/soundboard/static/css/main.b21d3c4a.chunk.css",
-    "main.js": "/soundboard/static/js/main.ab900bc9.chunk.js",
-    "main.js.map": "/soundboard/static/js/main.ab900bc9.chunk.js.map",
+    "main.js": "/soundboard/static/js/main.5e2b283b.chunk.js",
+    "main.js.map": "/soundboard/static/js/main.5e2b283b.chunk.js.map",
     "runtime-main.js": "/soundboard/static/js/runtime-main.e9f59a52.js",
     "runtime-main.js.map": "/soundboard/static/js/runtime-main.e9f59a52.js.map",
     "static/js/2.c5c8bd72.chunk.js": "/soundboard/static/js/2.c5c8bd72.chunk.js",
@@ -15,6 +15,8 @@
     "static/css/main.b21d3c4a.chunk.css.map": "/soundboard/static/css/main.b21d3c4a.chunk.css.map",
     "static/js/2.c5c8bd72.chunk.js.LICENSE.txt": "/soundboard/static/js/2.c5c8bd72.chunk.js.LICENSE.txt",
     "static/js/3.58f187fa.chunk.js.LICENSE.txt": "/soundboard/static/js/3.58f187fa.chunk.js.LICENSE.txt",
+    "static/media/a-platypus-perry-the-platypus.3173d990.png": "/soundboard/static/media/a-platypus-perry-the-platypus.3173d990.png",
+    "static/media/a-platypus-perry-the-platypus.6901d9cf.mp3": "/soundboard/static/media/a-platypus-perry-the-platypus.6901d9cf.mp3",
     "static/media/air-horn.0470f8a1.mp3": "/soundboard/static/media/air-horn.0470f8a1.mp3",
     "static/media/air-horn.ee013027.jpeg": "/soundboard/static/media/air-horn.ee013027.jpeg",
     "static/media/anime-wow.6f4d4a41.png": "/soundboard/static/media/anime-wow.6f4d4a41.png",
@@ -25,6 +27,8 @@
     "static/media/bruh.be88ece2.jpeg": "/soundboard/static/media/bruh.be88ece2.jpeg",
     "static/media/buzzer.1d788a08.jpg": "/soundboard/static/media/buzzer.1d788a08.jpg",
     "static/media/buzzer.493cc9f4.mp3": "/soundboard/static/media/buzzer.493cc9f4.mp3",
+    "static/media/doofenshmirtz-evil-incorporated.367479d4.mp3": "/soundboard/static/media/doofenshmirtz-evil-incorporated.367479d4.mp3",
+    "static/media/doofenshmirtz-evil-incorporated.e195bebc.jpeg": "/soundboard/static/media/doofenshmirtz-evil-incorporated.e195bebc.jpeg",
     "static/media/enemy-ac130-above.3a790259.jpeg": "/soundboard/static/media/enemy-ac130-above.3a790259.jpeg",
     "static/media/enemy-ac130-above.431b4a9a.mp3": "/soundboard/static/media/enemy-ac130-above.431b4a9a.mp3",
     "static/media/fart.e4945696.mp3": "/soundboard/static/media/fart.e4945696.mp3",
@@ -32,6 +36,8 @@
     "static/media/good-luck-with-that.ff7e79cf.jpg": "/soundboard/static/media/good-luck-with-that.ff7e79cf.jpg",
     "static/media/growl.09b760c8.jpg": "/soundboard/static/media/growl.09b760c8.jpg",
     "static/media/growl.28d64a61.m4a": "/soundboard/static/media/growl.28d64a61.m4a",
+    "static/media/if-i-had-a-nickel-for-every-time-i-was-doomed-by-a-puppet.72fab0d0.png": "/soundboard/static/media/if-i-had-a-nickel-for-every-time-i-was-doomed-by-a-puppet.72fab0d0.png",
+    "static/media/if-i-had-a-nickel-for-every-time-i-was-doomed-by-a-puppet.c1bc62b5.mp3": "/soundboard/static/media/if-i-had-a-nickel-for-every-time-i-was-doomed-by-a-puppet.c1bc62b5.mp3",
     "static/media/it-is-wednesday-my-dudes.0568a115.png": "/soundboard/static/media/it-is-wednesday-my-dudes.0568a115.png",
     "static/media/it-is-wednesday-my-dudes.b25d089b.mp3": "/soundboard/static/media/it-is-wednesday-my-dudes.b25d089b.mp3",
     "static/media/john-cena.52c84cd3.mp3": "/soundboard/static/media/john-cena.52c84cd3.mp3",
@@ -48,6 +54,10 @@
     "static/media/nut.d91d725e.png": "/soundboard/static/media/nut.d91d725e.png",
     "static/media/oh-baby-a-triple.215946d5.jpeg": "/soundboard/static/media/oh-baby-a-triple.215946d5.jpeg",
     "static/media/oh-baby-a-triple.27f144f7.mp3": "/soundboard/static/media/oh-baby-a-triple.27f144f7.mp3",
+    "static/media/perry-the-platypus-growl.ad579baf.jpeg": "/soundboard/static/media/perry-the-platypus-growl.ad579baf.jpeg",
+    "static/media/perry-the-platypus-growl.e16fa305.mp3": "/soundboard/static/media/perry-the-platypus-growl.e16fa305.mp3",
+    "static/media/perry-the-platypus-theme-song.66ca7005.png": "/soundboard/static/media/perry-the-platypus-theme-song.66ca7005.png",
+    "static/media/perry-the-platypus-theme-song.ea8bd031.mp3": "/soundboard/static/media/perry-the-platypus-theme-song.ea8bd031.mp3",
     "static/media/pterodactyl.5c48ed6d.m4a": "/soundboard/static/media/pterodactyl.5c48ed6d.m4a",
     "static/media/pterodactyl.f87772b2.png": "/soundboard/static/media/pterodactyl.f87772b2.png",
     "static/media/roblox-oof.c9791262.mp3": "/soundboard/static/media/roblox-oof.c9791262.mp3",
@@ -72,6 +82,6 @@
     "static/js/runtime-main.e9f59a52.js",
     "static/js/2.c5c8bd72.chunk.js",
     "static/css/main.b21d3c4a.chunk.css",
-    "static/js/main.ab900bc9.chunk.js"
+    "static/js/main.5e2b283b.chunk.js"
   ]
 }
