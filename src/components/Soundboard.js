@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 
 import SoundButton from "./SoundButton";
 import buttonsData from "../common/buttons";
-import { categories } from "../common/constants";
+import { categoryMap } from "../common/constants";
 import { makeStyles } from "@material-ui/core/styles";
 
 const allWhiteMaterialUiComponent = {
@@ -70,14 +70,14 @@ const useStyles = makeStyles({
 
 export default function Soundboard() {
   const [searchValue, setSearchValue] = useState("");
-  const [categoryValue, setCategoryValue] = useState(categories.ALL);
+  const [categoryValue, setCategoryValue] = useState(categoryMap.ALL);
   const [buttons, setButtons] = useState(buttonsData);
   const classes = useStyles();
 
   useEffect(() => {
     const filteredButtonsBySearchValue = buttonsData.filter((button) => button.name.toLowerCase().includes(searchValue.toLowerCase()));
     const filteredButtons =
-      categoryValue === categories.ALL
+      categoryValue === categoryMap.ALL
         ? filteredButtonsBySearchValue
         : filteredButtonsBySearchValue.filter((button) => button.category === categoryValue);
     setButtons(filteredButtons);
@@ -105,7 +105,7 @@ export default function Soundboard() {
             },
           }}
         >
-          {Object.values(categories).map((category) => (
+          {Object.values(categoryMap).map((category) => (
             <MenuItem value={category} key={category}>
               {category}
             </MenuItem>

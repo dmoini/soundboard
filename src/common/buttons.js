@@ -3,7 +3,7 @@ import * as soundImport from "../sounds";
 
 import { getName, zip } from "../util/buttonsUtil";
 
-import { soundNameToCategoryInfoMap } from "../common/constants";
+import { soundNameToCategoryMap } from "../common/constants";
 
 const imageKeys = [...Object.keys(imageImport)].sort();
 const soundKeys = [...Object.keys(soundImport)].sort();
@@ -14,7 +14,7 @@ const buttons = zip(imageKeys, soundKeys)
       name: getName(sound),
       imageUrl: imageImport[image],
       soundUrl: soundImport[sound],
-      category: soundNameToCategoryInfoMap[sound]?.category,
+      category: soundNameToCategoryMap[sound],
     };
   })
   .sort((a, b) => a.name.localeCompare(b.name));
