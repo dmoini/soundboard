@@ -25,3 +25,8 @@ export { default as Lawnmower } from "./lawnmower.jpeg";
 export { default as Yee } from "./yee.jpeg";
 export { default as VeryNice } from "./very-nice.png";
 export { default as GoodLuckWithThat } from "./good-luck-with-that.jpg";
+export { default as PerryThePlatypusGrowl } from "./perry-the-platypus-growl.jpeg";
+export { default as DoofenshmirtzEvilIncorporated } from "./doofenshmirtz-evil-incorporated.jpeg";
+export { default as APlatypusPerryThePlatypus } from "./a-platypus-perry-the-platypus.png";
+export { default as PerryThePlatypusThemeSong } from "./perry-the-platypus-theme-song.png";
+export { default as IfIHadINickelForEveryTimeIWasDoomedByAPuppet } from "./if-i-had-a-nickel-for-every-time-i-was-doomed-by-a-puppet.png";

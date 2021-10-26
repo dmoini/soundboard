@@ -25,3 +25,8 @@ export { default as Lawnmower } from "./lawnmower.m4a";
 export { default as Yee } from "./yee.mp3";
 export { default as VeryNice } from "./very-nice.mp3";
 export { default as GoodLuckWithThat } from "./good-luck-with-that.mp3";
+export { default as PerryThePlatypusGrowl } from "./perry-the-platypus-growl.mp3";
+export { default as DoofenshmirtzEvilIncorporated } from "./doofenshmirtz-evil-incorporated.mp3";
+export { default as APlatypusPerryThePlatypus } from "./a-platypus-perry-the-platypus.mp3";
+export { default as PerryThePlatypusThemeSong } from "./perry-the-platypus-theme-song.mp3";
+export { default as IfIHadINickelForEveryTimeIWasDoomedByAPuppet } from "./if-i-had-a-nickel-for-every-time-i-was-doomed-by-a-puppet.mp3";
