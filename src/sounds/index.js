@@ -30,3 +30,6 @@ export { default as DoofenshmirtzEvilIncorporated } from "./doofenshmirtz-evil-i
 export { default as APlatypusPerryThePlatypus } from "./a-platypus-perry-the-platypus.mp3";
 export { default as PerryThePlatypusThemeSong } from "./perry-the-platypus-theme-song.mp3";
 export { default as IfIHadINickelForEveryTimeIWasDoomedByAPuppet } from "./if-i-had-a-nickel-for-every-time-i-was-doomed-by-a-puppet.mp3";
+export { default as BloodFusionz } from "./bloodfusionz.m4a";
+export { default as EnemyAC130AboveNick } from "./enemy-ac130-above-nick.m4a";
+export { default as Voltage } from "./voltage.m4a";

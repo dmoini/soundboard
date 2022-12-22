@@ -1,7 +1,10 @@
-const FRIENDS_CHRIS = "Chris";
-const FRIENDS_ELVIN = "Elvin";
-const FRIENDS_FELICIA = "Felicia";
-const FRIENDS_WILLY = "Willy";
+const Friends = {
+  CHRIS: "Chris",
+  ELVIN: "Elvin",
+  FELICIA: "Felicia",
+  NICK: "Nick",
+  WILLY: "Willy",
+};
 
 export const categoryMap = {
   ALL: "All",
@@ -23,23 +26,33 @@ export const soundNameToCategoryMap = {
   APlatypusPerryThePlatypus: categoryMap.PHINEAS_AND_FERB,
   PerryThePlatypusThemeSong: categoryMap.PHINEAS_AND_FERB,
   IfIHadINickelForEveryTimeIWasDoomedByAPuppet: categoryMap.PHINEAS_AND_FERB,
+  TurkeySnipe: categoryMap.FRIENDS,
+  BloodFusionz: categoryMap.FRIENDS,
+  EnemyAC130AboveNick: categoryMap.FRIENDS,
+  Voltage: categoryMap.FRIENDS,
 };
 
 export const soundNameToFriendMap = {
-  Bro: FRIENDS_CHRIS,
-  Growl: FRIENDS_CHRIS,
-  Pterodactyl: FRIENDS_CHRIS,
-  Spanish: FRIENDS_CHRIS,
-  Squeal: FRIENDS_CHRIS,
-  YouNeedToGoThroughPubertyAgain: FRIENDS_ELVIN,
-  GoodLuckWithThat: FRIENDS_FELICIA,
-  Lawnmower: FRIENDS_WILLY,
+  Bro: Friends.CHRIS,
+  Growl: Friends.CHRIS,
+  Pterodactyl: Friends.CHRIS,
+  Spanish: Friends.CHRIS,
+  Squeal: Friends.CHRIS,
+  YouNeedToGoThroughPubertyAgain: Friends.ELVIN,
+  GoodLuckWithThat: Friends.FELICIA,
+  Lawnmower: Friends.WILLY,
+  TurkeySnipe: Friends.CHRIS,
+  BloodFusionz: Friends.NICK,
+  EnemyAC130AboveNick: Friends.NICK,
+  Voltage: Friends.NICK,
 };
 
 export const soundNameToCustomNameMap = {
   APlatypusPerryThePlatypus: "A Platypus? Perry the Platypus!",
   EnemyAC130Above: "Enemy AC-130 Above",
   NobodysGonnaKnow: "Nobody's Gonna Know",
+  EnemyAC130AboveNick: "Enemy AC-130 Above",
+  BloodFusionz: "BloodFusionz",
 };
 
 export const RED = "#FF0000";
