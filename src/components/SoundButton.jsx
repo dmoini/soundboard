@@ -1,4 +1,4 @@
-import { GREEN, RED } from "../common/constants";
+import { COLOR } from "../common/constants";
 import React, { useState } from "react";
 
 import ReactRoundedImage from "react-rounded-image";
@@ -47,7 +47,7 @@ export default function SoundButton({ name, imageUrl, soundUrl }) {
           imageWidth={150}
           imageHeight={150}
           image={imageUrl}
-          roundedColor={isPlaying ? GREEN : RED}
+          roundedColor={isPlaying ? COLOR.GREEN : COLOR.RED}
           roundedSize={10}
         ></ReactRoundedImage>
       </div>

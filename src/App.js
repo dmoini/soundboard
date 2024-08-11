@@ -1,6 +1,10 @@
 import "./App.css";
 
-import { MuiThemeProvider, createMuiTheme, makeStyles } from "@material-ui/core/styles";
+import {
+  MuiThemeProvider,
+  createTheme,
+  makeStyles,
+} from "@material-ui/core/styles";
 
 import Soundboard from "./components/Soundboard";
 import { Typography } from "@material-ui/core";
@@ -19,7 +23,7 @@ const useStyles = makeStyles({
   },
 });
 
-const theme = createMuiTheme({
+const theme = createTheme({
   typography: {
     h3: {
       color: "white",

@@ -1,10 +1,18 @@
-import { FormControl, Grid, InputLabel, MenuItem, Select, TextField, Typography } from "@material-ui/core";
+import {
+  FormControl,
+  Grid,
+  InputLabel,
+  MenuItem,
+  Select,
+  TextField,
+  Typography,
+} from "@material-ui/core";
 import React, { useEffect, useState } from "react";
 
-import SoundButton from "./SoundButton";
-import buttonsData from "../common/buttons";
-import { categoryMap } from "../common/constants";
 import { makeStyles } from "@material-ui/core/styles";
+import { CATEGORY } from "../common/constants";
+import SoundData from "../data/soundButtons.json";
+import SoundButton from "./SoundButton";
 
 const allWhiteMaterialUiComponent = {
   "& .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline": {
@@ -68,18 +76,32 @@ const useStyles = makeStyles({
   },
 });
 
+const soundButtonsData = SoundData.map((data) => {
+  return {
+    name: data.friend ? `${data.name} (${data.friend})` : data.name,
+    imageUrl: `${process.env.PUBLIC_URL}/assets/images/${data.imageFileName}`,
+    soundUrl: `${process.env.PUBLIC_URL}/assets/audio/${data.soundFileName}`,
+    category: data.category,
+    friend: data.friend,
+  };
+}).sort((a, b) => a.name.localeCompare(b.name));
+
 export default function Soundboard() {
   const [searchValue, setSearchValue] = useState("");
-  const [categoryValue, setCategoryValue] = useState(categoryMap.ALL);
-  const [buttons, setButtons] = useState(buttonsData);
+  const [categoryValue, setCategoryValue] = useState(CATEGORY.ALL);
+  const [buttons, setButtons] = useState(soundButtonsData);
   const classes = useStyles();
 
   useEffect(() => {
-    const filteredButtonsBySearchValue = buttonsData.filter((button) => button.name.toLowerCase().includes(searchValue.toLowerCase()));
+    const filteredButtonsBySearchValue = soundButtonsData.filter((button) =>
+      button.name.toLowerCase().includes(searchValue.toLowerCase())
+    );
     const filteredButtons =
-      categoryValue === categoryMap.ALL
+      categoryValue === CATEGORY.ALL
         ? filteredButtonsBySearchValue
-        : filteredButtonsBySearchValue.filter((button) => button.category === categoryValue);
+        : filteredButtonsBySearchValue.filter(
+            (button) => button.category === categoryValue
+          );
     setButtons(filteredButtons);
   }, [searchValue, categoryValue]);
 
@@ -105,7 +127,7 @@ export default function Soundboard() {
             },
           }}
         >
-          {Object.values(categoryMap).map((category) => (
+          {Object.values(CATEGORY).map((category) => (
             <MenuItem value={category} key={category}>
               {category}
             </MenuItem>
@@ -113,7 +135,7 @@ export default function Soundboard() {
         </Select>
       </FormControl>
 
-      <Grid container spacing={2} justify="center">
+      <Grid container spacing={2} justifyContent="center">
         {buttons.map((button) => {
           return (
             <Grid item xs={6} sm={4} md={2} key={`${button.name} grid item`}>
@@ -121,7 +143,11 @@ export default function Soundboard() {
             </Grid>
           );
         })}
-        <>{buttons.length === 0 && <Typography variant="h6">No sounds found</Typography>}</>
+        <>
+          {buttons.length === 0 && (
+            <Typography variant="h6">No sounds found</Typography>
+          )}
+        </>
       </Grid>
     </div>
   );

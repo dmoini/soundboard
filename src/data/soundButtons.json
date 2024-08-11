@@ -1,0 +1,206 @@
+[
+  {
+    "name": "A Platypus? Perry the Platypus!",
+    "imageFileName": "a-platypus-perry-the-platypus.png",
+    "soundFileName": "a-platypus-perry-the-platypus.mp3",
+    "category": "Phineas and Ferb"
+  },
+  {
+    "name": "Air Horn",
+    "imageFileName": "air-horn.jpeg",
+    "soundFileName": "air-horn.mp3"
+  },
+  {
+    "name": "Anime Wow",
+    "imageFileName": "anime-wow.png",
+    "soundFileName": "anime-wow.mp3"
+  },
+  {
+    "name": "BloodFusionz",
+    "imageFileName": "bloodfusionz.jpeg",
+    "soundFileName": "bloodfusionz.m4a",
+    "category": "Friends",
+    "friend": "Nick"
+  },
+  {
+    "name": "Bro",
+    "imageFileName": "bro.jpg",
+    "soundFileName": "bro.m4a",
+    "category": "Friends",
+    "friend": "Chris"
+  },
+  {
+    "name": "Bruh",
+    "imageFileName": "bruh.jpeg",
+    "soundFileName": "bruh.mp3"
+  },
+  {
+    "name": "Buzzer",
+    "imageFileName": "buzzer.jpg",
+    "soundFileName": "buzzer.mp3"
+  },
+  {
+    "name": "Doofenshmirtz Evil Incorporated",
+    "imageFileName": "doofenshmirtz-evil-incorporated.jpeg",
+    "soundFileName": "doofenshmirtz-evil-incorporated.mp3",
+    "category": "Phineas and Ferb"
+  },
+  {
+    "name": "Enemy AC-130 Above",
+    "imageFileName": "enemy-ac130-above.jpeg",
+    "soundFileName": "enemy-ac130-above.mp3"
+  },
+  {
+    "name": "Enemy AC-130 Above",
+    "imageFileName": "enemy-ac130-above-nick.jpg",
+    "soundFileName": "enemy-ac130-above-nick.m4a",
+    "category": "Friends",
+    "friend": "Nick"
+  },
+  {
+    "name": "Fart",
+    "imageFileName": "fart.jpeg",
+    "soundFileName": "fart.mp3"
+  },
+  {
+    "name": "Good Luck With That",
+    "imageFileName": "good-luck-with-that.jpg",
+    "soundFileName": "good-luck-with-that.mp3",
+    "category": "Friends",
+    "friend": "Felicia"
+  },
+  {
+    "name": "Growl",
+    "imageFileName": "growl.jpg",
+    "soundFileName": "growl.m4a",
+    "category": "Friends",
+    "friend": "Chris"
+  },
+  {
+    "name": "If I Had I Nickel For Every Time I Was Doomed By A Puppet",
+    "imageFileName": "if-i-had-a-nickel-for-every-time-i-was-doomed-by-a-puppet.png",
+    "soundFileName": "if-i-had-a-nickel-for-every-time-i-was-doomed-by-a-puppet.mp3",
+    "category": "Phineas and Ferb"
+  },
+  {
+    "name": "It Is Wednesday My Dudes",
+    "imageFileName": "it-is-wednesday-my-dudes.png",
+    "soundFileName": "it-is-wednesday-my-dudes.mp3"
+  },
+  {
+    "name": "John Cena",
+    "imageFileName": "john-cena.jpeg",
+    "soundFileName": "john-cena.mp3"
+  },
+  {
+    "name": "Kermit Will Stomp Your Knee Caps Backwards",
+    "imageFileName": "kermit-will-stomp-your-knee-caps-backwards.png",
+    "soundFileName": "kermit-will-stomp-your-knee-caps-backwards.mp3"
+  },
+  {
+    "name": "Lawnmower",
+    "imageFileName": "lawnmower.jpeg",
+    "soundFileName": "lawnmower.m4a",
+    "category": "Friends",
+    "friend": "Willy"
+  },
+  {
+    "name": "Leeroy Jenkins",
+    "imageFileName": "leeroy-jenkins.jpg",
+    "soundFileName": "leeroy-jenkins.mp3"
+  },
+  {
+    "name": "Nobody's Gonna Know",
+    "imageFileName": "nobody's-gonna-know.png",
+    "soundFileName": "nobody's-gonna-know.mp3"
+  },
+  {
+    "name": "Nut",
+    "imageFileName": "nut.png",
+    "soundFileName": "nut.mp3"
+  },
+  {
+    "name": "Oh Baby A Triple",
+    "imageFileName": "oh-baby-a-triple.jpeg",
+    "soundFileName": "oh-baby-a-triple.mp3"
+  },
+  {
+    "name": "Perry The Platypus Growl",
+    "imageFileName": "perry-the-platypus-growl.jpeg",
+    "soundFileName": "perry-the-platypus-growl.mp3",
+    "category": "Phineas and Ferb"
+  },
+  {
+    "name": "Perry The Platypus Theme Song",
+    "imageFileName": "perry-the-platypus-theme-song.png",
+    "soundFileName": "perry-the-platypus-theme-song.mp3",
+    "category": "Phineas and Ferb"
+  },
+  {
+    "name": "Pterodactyl",
+    "imageFileName": "pterodactyl.png",
+    "soundFileName": "pterodactyl.m4a",
+    "category": "Friends",
+    "friend": "Chris"
+  },
+  {
+    "name": "Roblox Oof",
+    "imageFileName": "roblox-oof.jpg",
+    "soundFileName": "roblox-oof.mp3"
+  },
+  {
+    "name": "Spanish",
+    "imageFileName": "spanish.jpg",
+    "soundFileName": "spanish.m4a",
+    "category": "Friends",
+    "friend": "Chris"
+  },
+  {
+    "name": "Squeal",
+    "imageFileName": "squeal.jpg",
+    "soundFileName": "squeal.mp3",
+    "category": "Friends",
+    "friend": "Chris"
+  },
+  {
+    "name": "Surprise Motherfucker",
+    "imageFileName": "surprise-motherfucker.jpg",
+    "soundFileName": "surprise-motherfucker.mp3"
+  },
+  {
+    "name": "Tactical Nuke Incoming",
+    "imageFileName": "tactical-nuke-incoming.png",
+    "soundFileName": "tactical-nuke-incoming.mp3"
+  },
+  {
+    "name": "Turkey Snipe",
+    "imageFileName": "turkey-snipe.png",
+    "soundFileName": "turkey-snipe.mp3",
+    "category": "Friends",
+    "friend": "Chris"
+  },
+  {
+    "name": "Very Nice",
+    "imageFileName": "very-nice.png",
+    "soundFileName": "very-nice.mp3"
+  },
+  {
+    "name": "Voltage",
+    "imageFileName": "voltage.jpg",
+    "soundFileName": "voltage.m4a",
+    "category": "Friends",
+    "friend": "Nick"
+  },
+  {
+    "name": "Yee",
+    "imageFileName": "yee.jpeg",
+    "soundFileName": "yee.mp3"
+  },
+  {
+    "name": "You Need To Go Through Puberty Again",
+    "imageFileName": "you-need-to-go-through-puberty-again.jpg",
+    "soundFileName": "you-need-to-go-through-puberty-again.mp3",
+    "category": "Friends",
+    "friend": "Elvin"
+  }
+]
